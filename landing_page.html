@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can style the page using CSS -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Browser Extension</h1>
+    </header>
+    <section class="user-profile">
+        <!-- 1. Avatar and Username of the user profile -->
+        <div class="profile-info">
+            <img src="avatar.jpg" alt="User Avatar">
+            <p class="username">Username</p>
+        </div>
+        <!-- 2. Button to follow the user -->
+        <button id="follow-button">Follow</button>
+    </section>
+    <section class="following-list">
+        <!-- 3. List of LeetCode users the extension user is following -->
+        <h2>Following List</h2>
+        <ul id="following-users">
+            <li>
+                <div class="profile-info">
+                    <img src="avatar1.jpg" alt="User Avatar">
+                    <p class="username">LeetCodeUser1</p>
+                </div>
+                <!-- 4. Unfollow button -->
+                <button class="unfollow-button">Unfollow</button>
+            </li>
+            <li>
+                <div class="profile-info">
+                    <img src="avatar2.jpg" alt="User Avatar">
+                    <p class="username">LeetCodeUser2</p>
+                </div>
+                <!-- 4. Unfollow button -->
+                <button class="unfollow-button">Unfollow</button>
+            </li>
+            <!-- Add more users as needed -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script> <!-- You can use JavaScript for interactions -->
+</body>
+</html>
